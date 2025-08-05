@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blvlhuyt3u6m0"
-path="res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex"
+path="res://.godot/imported/godotwaka.png-73c6a75aaa24d5a438571fc4f8391295.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/godotwaka.png"
-dest_files=["res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex"]
+source_file="res://hackclubrepo/images/godotwaka.png"
+dest_files=["res://.godot/imported/godotwaka.png-73c6a75aaa24d5a438571fc4f8391295.ctex"]
 
 [params]
 
