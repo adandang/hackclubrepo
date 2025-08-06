@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 
 const SPEED = 1000.0
-const JUMP_VELOCITY = -700.0
+const JUMP_VELOCITY = -1100.0
 
 var is_ready : bool = true
 
@@ -25,7 +25,7 @@ func _physics_process(delta: float) -> void:
 		
 	if Input.is_action_just_pressed("dash"):
 		if is_ready:
-			position.x += 500*direction
+			velocity.x += 2500*direction
 			is_ready = false
 			$Timer.start()
 		
@@ -35,3 +35,10 @@ func _on_timer_timeout():
 	is_ready = true
 	
 	
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	position.x = 55
+	position.y = 226
+	velocity.x = 0
+	velocity.y = 0
